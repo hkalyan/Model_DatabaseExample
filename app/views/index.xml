@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="book" />
+    <Window class="container">
+        <TableView id="titles" dataCollection="book"  >
+            <!-- Also can use Require -->
+            <TableViewRow title="{title}" id="{id}"/>
+        </TableView>
+        <Button id="deletebtn" text="delete" width="50"/>
+    </Window>
+</Alloy>
